@@ -4,7 +4,7 @@ elk is a command line tool that allows you to deploy your own URL shortening ser
 
 # How does it work?
 
-elk is built on top of Zeit's [now](https://zeit.co/now) and [zeit.world](https://zeit.world) services. If you've never used these services, they're amazing and fantastic. now allows you to deploy node servers by simply typing `now` into the CLI of the directoy you want to deploy. Within seconds your node server is out in the wild and publically available (they give you a URL to access it.) zeit.world is DNS configuration service. By typing `now alias <your deployed now URL> <your own URL>` your own domain will now be point at that deployed service (after you've pointed your domain's nameservers at Zeit's.) Be forewarned though that this feature that elk exploits is part of their paid tier (something they well deserve.) elk will still works without the paid tier; you just don't get custom domain support.
+elk is built on top of Zeit's [now](https://zeit.co/now) and [zeit.world](https://zeit.world) services. If you've never used these services, they're amazing and fantastic. now allows you to deploy node servers by simply typing `now` into the CLI of the directoy you want to deploy. Within seconds your node server is out in the wild and publically available (they give you a URL to access it.) zeit.world is DNS configuration service. By typing `now alias <your deployed now URL> <your own URL>` your own domain will now be point at that deployed service (after you've pointed your domain's nameservers at Zeit's.) Be forewarned though that this feature that elk exploits is part of their paid tier (something they well deserve.) elk will still work without the paid tier; you just don't get custom domain support.
 
 # How do I get elk working?
 
