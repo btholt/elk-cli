@@ -1,3 +1,5 @@
+![Elk Logo](https://raw.github.com/btholt/elk-cli/master/elk-logo.png)
+
 # What is elk?
 
 elk is a command line tool that allows you to deploy your own URL shortening service (like [bit.ly](https://bit.ly)). All you have to do is `elk add /twitter https://twitter.com/holtbt` and within seconds that URL on your domain will start forwarding.
